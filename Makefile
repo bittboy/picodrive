@@ -31,7 +31,8 @@ endif
 
 # default settings
 ifeq "$(ARCH)" "arm"
-use_cyclone ?= 1
+use_cyclone ?= 0
+use_fame ?= 1
 use_drz80 ?= 1
 use_sh2drc ?= 1
 use_svpdrc ?= 1
